@@ -8,11 +8,13 @@ public class TemperaturaApp {
 	public static void main(String[] args) {
 	
 		Temperatura t1 = new Temperatura();
-		t1.setCelsius(10);
+		t1.setCelsius(30);
 		t1.mostrarConversão();
 		
 		TelaConversor tela = new TelaConversor();
 		tela.criarTelaConversor();
+		
+				
 
 	}
 
